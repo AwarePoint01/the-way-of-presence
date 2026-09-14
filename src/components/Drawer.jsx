@@ -63,7 +63,7 @@ function CustomDrawer() {
 														sx={{ pl: 4 }}
 														onClick={() => {
 															toggleDrawer(false)();
-															navigate(`/la-sfera/events/${event.route}`);
+															navigate(`/the-way-of-presence/events/${event.route}`);
 														}}
 													>
 														<ListItemText primary={event.title} />
