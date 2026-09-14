@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<script>
+			const path = window.location.pathname;
+
+			if (path.startsWith('/the-way-of-presence/')) {
+				const redirect = path.replace('/the-way-of-presence', '') + window.location.search + window.location.hash;
+				window.location.replace('/the-way-of-presence/' + '?redirect=' + encodeURIComponent(redirect));
+			}
+		</script>
+	</head>
+
+	<body>
+	</body>
+
+</html>
