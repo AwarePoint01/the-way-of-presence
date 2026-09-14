@@ -22,7 +22,7 @@ function App() {
 		<LanguageProvider>
 			<ThemeProvider theme={themes[mode]}>
 				<CssBaseline />
-				<Router basename="/la-sfera">
+				<Router basename="/the-way-of-presence">
 					<ScrollToTop />
 					<ResponsiveRoutes />
 				</Router>
