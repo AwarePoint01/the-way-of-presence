@@ -2,11 +2,10 @@ import HomeIcon from '@mui/icons-material/Home';
 import GroupIcon from '@mui/icons-material/Group';
 import EventIcon from '@mui/icons-material/Event';
 import MailIcon from '@mui/icons-material/Mail';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import healingEnergyImg from "../assets/img/healingEnergy.jpg";
 import meditationImg from "../assets/img/meditation.jpg";
 import readingImg from "../assets/img/reading.jpg";
+import awarenessImg from "../assets/img/awareness.png";
 import "flag-icons/css/flag-icons.min.css";
 import { eventsInfo } from "./events";
 
@@ -92,6 +91,15 @@ export default {
 					route: "meditation",
 					info: eventsInfo["meditation"],
 					image: meditationImg,
+				},
+				{
+					title: "Awareness",
+					subtitle: "Two live online days to cultivate awareness and the inner competencies needed to navigate moments of choice, complexity and change.",
+					description: "",
+					route: null,
+					redirect: "https://awareness.ipazia-hei.com/",
+					info: null,
+					image: awarenessImg,
 				},
 			]
 		},
@@ -181,6 +189,15 @@ export default {
 					info: eventsInfo["meditation"],
 					image: meditationImg,
 				},
+				{
+					title: "Awareness",
+					subtitle: "Due giorni live per coltivare la consapevolezza e le competenze interiori per attraversare momenti di scelta, complessità e cambiamento",
+					description: "",
+					route: null,
+					redirect: "https://awareness.ipazia-hei.com/",
+					info: null,
+					image: awarenessImg,
+				},
 
 			],
 		},
@@ -269,6 +286,15 @@ export default {
 					route: "meditation",
 					info: eventsInfo["meditation"],
 					image: meditationImg,
+				},
+				{
+					title: "Awareness",
+					subtitle: "Zwei Live-Online Tage, um Bewusstsein und die inneren Kompetenzen zu entwickeln, die erforderlich sind, um Momente der Wahl, Komplexität und Veränderung zu bewältigen.",
+					description: "",
+					route: null,
+					redirect: "https://awareness.ipazia-hei.com/",
+					info: null,
+					image: awarenessImg,
 				},
 			],
 		},

@@ -66,7 +66,7 @@ function Events() {
 							key={index}
 						>
 							<Card
-								onClick={() => handleClickOpen(event.route)}
+								onClick={() => event.route ? handleClickOpen(event.route) : window.open(event.redirect, '_blank')}
 								sx={{
 									transition:
 										"transform 0.30s ease, box-shadow 0.30s ease",
