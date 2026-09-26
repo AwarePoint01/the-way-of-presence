@@ -33,7 +33,7 @@ export const eventsInfo = {
 		},
 		{
 			day: "2026-10-04",
-			time: "19:00",
+			time: "17:00",
 			locations: [
 				{
 					name: "Online",
