@@ -1,7 +1,7 @@
 export const eventsInfo = {
 	"healing-energy": [
 		{
-			day: "2026-09-27",
+			day: "2020-09-27",
 			time: "10:00",
 			locations: [
 				{
@@ -22,7 +22,17 @@ export const eventsInfo = {
 
 	"reading": [
 		{
-			day: "2026-09-21",
+			day: "2026-09-27",
+			time: "17:00",
+			locations: [
+				{
+					name: "Online",
+					enrollUrl: "#",
+				}
+			]
+		},
+		{
+			day: "2026-10-04",
 			time: "19:00",
 			locations: [
 				{
